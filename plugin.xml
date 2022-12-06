@@ -37,7 +37,7 @@
         <config-file target="AndroidManifest.xml" parent="application">
           <provider
               android:name="com.outsystems.documentpreview.FileProvider"
-              android:authorities="${applicationId}.opener.provider"
+              android:authorities="com.vingroup.vinhome.resident.opener.provider"
               android:exported="false"
               android:grantUriPermissions="true" >
               <meta-data
